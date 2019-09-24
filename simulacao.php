@@ -6,7 +6,7 @@ include_once './conexao.php';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">    <title>Blog &ndash; Layout Examples &ndash; Pure</title>    
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts."><title>StillFrag-Store/Simulação</title>    
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
     
     <!--[if lte IE 8]>
@@ -29,16 +29,16 @@ include_once './conexao.php';
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
-            <h1 class="brand-title">A Sample Blog</h1>
-            <h2 class="brand-tagline">Creating a blog layout using Pure</h2>
+            <h1 class="brand-title">Jogos de Simulação</h1>
+            <h2 class="brand-tagline">Melhores Jogos de Simulação</h2>
 
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a class="pure-button" href="http://purecss.io">Pure</a>
+                        <a class="pure-button" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="http://yuilibrary.com">YUI Library</a>
+                        <a class="pure-button" href="simulacao.php">Ação</a>
                     </li>
                 </ul>
             </nav>
@@ -49,17 +49,15 @@ include_once './conexao.php';
         <div>
             <!-- A wrapper for all the blog posts -->
             <div class="posts">
-                <h1 class="content-subhead">Pinned Post</h1>
 
                 <!-- A single blog post -->
                 <section class="post">
                     <header class="post-header">
-                        <img width="48" height="48" alt="Tilo Mitra&#x27;s avatar" class="post-avatar" src="img/common/tilo-avatar.png">
-
-                        <h2 class="post-title">Introducing Pure</h2>
+                        
+                        <h2 class="post-title" >Planet Coaster <a href="plncost.php" >Compre</a></h2> 
 
                         <p class="post-meta">
-                            By <a href="#" class="post-author">Tilo Mitra</a> under <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a>
+                            By <a class="post-author">CD Project Red</a>
                         </p>
                     </header>
 
@@ -72,16 +70,14 @@ include_once './conexao.php';
             </div>
 
             <div class="posts">
-                <h1 class="content-subhead">Recent Posts</h1>
 
                 <section class="post">
                     <header class="post-header">
-                        <img width="48" height="48" alt="Eric Ferraiuolo&#x27;s avatar" class="post-avatar" src="img/common/ericf-avatar.png">
 
-                        <h2 class="post-title">Everything You Need to Know About Grunt</h2>
+                        <h2 class="post-title">Frost Punk <a href="frostpun.php" >Compre</a></h2>
 
                         <p class="post-meta">
-                            By <a class="post-author" href="#">Eric Ferraiuolo</a> under <a class="post-category post-category-js" href="#">JavaScript</a>
+                            By <a class="post-author">FromSoftware</a>
                         </p>
                     </header>
 
@@ -91,73 +87,11 @@ include_once './conexao.php';
                         </p>
                     </div>
                 </section>
-
-                <section class="post">
-                    <header class="post-header">
-                        <img width="48" height="48" alt="Reid Burke&#x27;s avatar" class="post-avatar" src="img/common/reid-avatar.png">
-
-                        <h2 class="post-title">Photos from CSSConf and JSConf</h2>
-
-                        <p class="post-meta">
-                            By <a class="post-author" href="#">Reid Burke</a> under <a class="post-category" href="#">Uncategorized</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <div class="post-images pure-g">
-                            <div class="pure-u-1 pure-u-md-1-2">
-                                <a href="http://www.flickr.com/photos/uberlife/8915936174/">
-                                    <img alt="Photo of someone working poolside at a resort"
-                                         class="pure-img-responsive"
-                                         src="http://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">
-                                </a>
-
-                                <div class="post-image-meta">
-                                    <h3>CSSConf Photos</h3>
-                                </div>
-                            </div>
-
-                            <div class="pure-u-1 pure-u-md-1-2">
-                                <a href="http://www.flickr.com/photos/uberlife/8907351301/">
-                                    <img alt="Photo of the sunset on the beach"
-                                         class="pure-img-responsive"
-                                         src="http://farm8.staticflickr.com/7382/8907351301_bd7460cffb.jpg">
-                                </a>
-
-                                <div class="post-image-meta">
-                                    <h3>JSConf Photos</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section class="post">
-                    <header class="post-header">
-                        <img width="48" height="48" alt="Andrew Wooldridge&#x27;s avatar" class="post-avatar" src="img/common/andrew-avatar.png">
-
-                        <h2 class="post-title">YUI 3.10.2 Released</h2>
-
-                        <p class="post-meta">
-                            By <a class="post-author" href="#">Andrew Wooldridge</a> under <a class="post-category post-category-yui" href="#">YUI</a>
-                        </p>
-                    </header>
-
-                    <div class="post-description">
-                        <p>
-                            We are happy to announce the release of YUI 3.10.2! You can find it now on the Yahoo! CDN, download it directly, or pull it in via npm. We’ve also updated the YUI Library website with the latest documentation.
-                        </p>
-                    </div>
-                </section>
             </div>
 
             <div class="footer">
                 <div class="pure-menu pure-menu-horizontal">
-                    <ul>
-                        <li class="pure-menu-item"><a href="http://purecss.io/" class="pure-menu-link">About</a></li>
-                        <li class="pure-menu-item"><a href="http://twitter.com/yuilibrary/" class="pure-menu-link">Twitter</a></li>
-                        <li class="pure-menu-item"><a href="http://github.com/pure-css/pure/" class="pure-menu-link">GitHub</a></li>
-                    </ul>
+                        <a>Todos os Direitos Reservados | Stillfrag-Team Grim</a>
                 </div>
             </div>
         </div>
