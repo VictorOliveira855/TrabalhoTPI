@@ -1,12 +1,12 @@
 <?php
-include_once './conexao.php';
+include_once './conection.php';
 ?>
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a blog page with a list of posts."><title>StillFrag-Store/Simulação</title>    
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts."><title>StillFrag-Store/Ação</title>    
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
     
     <!--[if lte IE 8]>
@@ -22,15 +22,14 @@ include_once './conexao.php';
         <![endif]-->
         <!--[if gt IE 8]><!-->
             <link rel="stylesheet" href="css/layouts/blog.css">
-        <!--<![endif]-->
 </head>
 <body>
 
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
         <div class="header">
-            <h1 class="brand-title">Jogos de Simulação</h1>
-            <h2 class="brand-tagline">Melhores Jogos de Simulação</h2>
+            <h1 class="brand-title">Jogos de Ação</h1>
+            <h2 class="brand-tagline">Melhores Jogos de Ação</h2>
 
             <nav class="nav">
                 <ul class="nav-list">
@@ -38,7 +37,7 @@ include_once './conexao.php';
                         <a class="pure-button" href="index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="pure-button" href="simulacao.php">Ação</a>
+                        <a class="pure-button" href="rpg.php">RPG</a>
                     </li>
                 </ul>
             </nav>
@@ -54,10 +53,10 @@ include_once './conexao.php';
                 <section class="post">
                     <header class="post-header">
                         
-                        <h2 class="post-title" >Planet Coaster <a href="plncost.php" >Compre</a></h2> 
+                        <h2 class="post-title" >My Friend Pedro <a href="mfp.php" >Compre</a></h2> 
 
                         <p class="post-meta">
-                            By <a class="post-author">CD Project Red</a>
+                            By <a class="post-author">Dead Toast</a>
                         </p>
                     </header>
 
@@ -74,10 +73,10 @@ include_once './conexao.php';
                 <section class="post">
                     <header class="post-header">
 
-                        <h2 class="post-title">Frost Punk <a href="frostpun.php" >Compre</a></h2>
+                        <h2 class="post-title">GTA V <a href="gtaV.php" >Compre</a></h2>
 
                         <p class="post-meta">
-                            By <a class="post-author">FromSoftware</a>
+                            By <a class="post-author">Rock Star North </a>
                         </p>
                     </header>
 
